@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "osu! Beatmap Auto Downloader",
+    "version": "1.0",
+    "description": "Automatically downloads osu! beatmaps when visiting beatmap pages.",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://osu.ppy.sh/beatmapsets/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

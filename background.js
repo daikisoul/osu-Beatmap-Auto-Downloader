@@ -1,4 +1,1 @@
-chrome.runtime.onInstalled.addListener(() => {
-    console.log('osu! Beatmap Auto Downloader installed');
-  });
-  
+// Background script is empty or can be removed if not needed

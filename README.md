@@ -25,5 +25,5 @@ osu! Beatmap Auto Downloader is a Chrome extension that automatically downloads 
 
 - `manifest.json`: Contains metadata about the extension, such as its name, version, and permissions.
 - `content.js`: The content script that detects beatmap pages and clicks the download button.
-- `background.js`: The background script that handles the extension's lifecycle events.
+
 
